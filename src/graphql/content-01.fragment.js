@@ -4,7 +4,6 @@ export const query = graphql`
     fragment Content01 on HomeContent {
         id
         section
-        title
         video_link
         headings {
             ...Heading

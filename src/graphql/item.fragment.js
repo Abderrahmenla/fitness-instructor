@@ -11,7 +11,6 @@ export const query = graphql`
         texts {
             content
         }
-        category
         images {
             src {
                 childImageSharp {
