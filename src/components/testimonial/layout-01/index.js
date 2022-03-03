@@ -4,6 +4,7 @@ import Image from "@ui/image";
 import { ImageType } from "@utils/types";
 
 const Testimonial = ({ title, designation, desc, image }) => {
+    console.log(image)
     return (
         <div className="rn-testimonial">
             <div className="testimonial-inner">

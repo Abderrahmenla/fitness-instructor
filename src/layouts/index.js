@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import cn from "classnames";
 import ScrollToTop from "@ui/scroll-to-top";
-import SEO from "@components/seo";
+import Seo from "@components/seo";
 import "@assets/css/bootstrap.min.css";
 import "@assets/scss/style.scss";
 import "aos/dist/aos.css";
@@ -11,7 +11,7 @@ import Client from "./client";
 const Layout = ({ children, color, className, pageTitle }) => {
     return (
         <>
-            <SEO
+            <Seo
                 bodyClass={cn(`template-color-${color} spybody`, className)}
                 titleTemplate={pageTitle}
             />
