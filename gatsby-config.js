@@ -1,13 +1,13 @@
 module.exports = {
     siteMetadata: {
         siteUrl: "https://www.yourdomain.tld",
-        title: "Inbio - Personal Portfolio React Template",
-        description: "Awesome Gatsby template",
+        title: "Fitness Instructor - Personal Portfolio",
+        description: "a fitness instructor personal portfolio",
         author: "Rainbow IT",
         siteLanguage: "en",
         image: "banner.jpg",
-        titleTemplate: "inbio",
-        twitterUsername: "@rainbowit",
+        titleTemplate: "Fitness Instructor",
+        twitterUsername: "@abderrahmenla",
         getform_url:
             "https://getform.io/f/7a6695a7-c8e3-442c-bc2f-d46d3b9a535e",
         socials: [
@@ -31,8 +31,8 @@ module.exports = {
             },
         ],
         contact: {
-            phone: "01234567890",
-            email: "admin@example.com",
+            phone: "21620933337",
+            email: "abderrahmen.lahmedigl@gmail.com",
         },
     },
     plugins: [
@@ -85,8 +85,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: "Inbio",
-                short_name: "inbio",
+                name: "Fitness instructor",
+                short_name: "fitness",
                 theme_color: "#ff014f",
                 background_color: "#ffffff",
                 display: "standalone",

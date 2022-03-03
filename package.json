@@ -1,9 +1,9 @@
 {
-  "name": "inbio-gatsby",
+  "name": "fitness-instructor",
   "version": "1.0.0",
   "private": true,
-  "description": "inbio-gatsby",
-  "author": "Rainbow IT",
+  "description": "Fitness instructor",
+  "author": "Abderrahmen Lahmedi",
   "keywords": [
     "gatsby"
   ],
