@@ -41,6 +41,7 @@ const sliderOptions = {
 };
 
 const TestimonialArea = ({ data, id }) => {
+    console.log(data)
     return (
         <div
             className="rn-testimonial-area testimonial-style-2 testimonial-with-carousel rn-section-gapTop pb--80 pb_md--50 section-separator"
@@ -77,7 +78,7 @@ const TestimonialArea = ({ data, id }) => {
                                 <Testimonial
                                     title={item.title}
                                     designation={item.designation}
-                                    image={item.image}
+                                    image={item.images[0]}
                                     desc={item.description}
                                 />
                             </SliderItem>
