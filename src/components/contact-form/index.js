@@ -43,7 +43,6 @@ const ContactForm = ({ className, url }) => {
             data,
         })
             .then((res) => {
-                console.log();
                 handleServerResponse(true, "Thanks! for being with us", form);
             })
             .catch((err) => {
