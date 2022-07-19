@@ -1406,3 +1406,9 @@
         }
     }
 }
+.custom-style{
+    @media #{$smlg-device} {
+        margin-bottom: -75px;    
+    }
+    
+}
