@@ -22,14 +22,14 @@ const HeroArea = ({ data }) => {
                             <div className="inner  mb_sm--80 mb--0">
                                 {data?.headings?.[0] && (
                                     <h1
-                                        className="title color-lightn"
+                                        className=" title color-lightn"
                                         dangerouslySetInnerHTML={{
                                             __html: data.headings[0]?.content,
                                         }}
                                     />
                                 )}
                                 {data?.texts?.[0] && (
-                                    <p className="discs color-lightn">
+                                    <p className="hide-xs discs color-lightn">
                                         {data.texts[0]?.content}
                                     </p>
                                 )}

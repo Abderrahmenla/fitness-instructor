@@ -1412,3 +1412,9 @@
     }
     
 }
+.hide-xs{
+    @media #{$large-mobile} {
+        display:none !important;    
+    }
+    
+}
